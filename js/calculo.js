@@ -1,7 +1,6 @@
 function calculo(x,y){
     if (x==='' || y===''){
-        alert('Informe números nos dois campos');
-        return false;
+        return ('Informe números nos dois campos');
     }
     soma=parseInt(x)+parseInt(y);
     CalculoString = ("A Soma é igual a "+soma+"<br />");
