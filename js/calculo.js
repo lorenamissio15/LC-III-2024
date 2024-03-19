@@ -13,4 +13,4 @@ function calculo(x,y){
     CalculoString += ("A multiplicação é igual a "+multiplicacao);
     return CalculoString
 }
-// calculo(2,3);
+ calculo(2,3);
