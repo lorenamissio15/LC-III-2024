@@ -12,14 +12,19 @@
     <input type="number" id="num">
     <input type="button" value="compare" onclick="compare(document.getElementById('num').value);">
     <br/>
-    <input type="number" id="num1">
+    <h2 font-size="25px"> Calculadora</h2>
+    <p>
+        Informe o primeiro número: <input type="number" id="num1">
     <br/>
-    <input type="number" id="num2">
-    <br/>
-    <input type="button" value="compare"
+    Informe o segundo número: <input type="number" id="num2">
+    <br/></br>
+    <input type="button" value="calculo"
      onclick="document.getElementById('calculo').innerHTML = 
      calculo(document.getElementById('num1').value,document.getElementById('num2').value)">
-    <p id="calculo"></p>
+     </p>
+    <p id="calculo">
+
+    </p>
 </body>
 <script type="text/javascript">
     document.getElementById('calculo').innerHTML = 'Olá';
