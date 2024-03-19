@@ -1,0 +1,28 @@
+<script type="text/javascript">
+	li=+prompt('Digite o limite inicial')
+	lf=+prompt('Digite o limite final')
+	vp=new Array()
+	vi=new Array()
+	for(cont=li;cont<=lf;cont++){
+		if (cont%2==0) {
+			vp.push(cont) //ADICIONA UMA INFORMAÇÃO NO FINAL DO VETOR
+		}else{
+			vi.push(cont)
+		}
+	}
+	document.write(vp,'<br>',vi, '<br>')
+	vr=vp.concat(vi) //MESCLA DOIS VETORES
+	document.write(vr,'<br>')
+	vr.sort() //ORDENA O VETOR
+	document.write(vr,'<br>')
+	t=vr.length //RETORNA O TAMANHO DO VETOR
+	document.write('O tamanho do terceiro vetor é: ',t, '<br>')
+	r=vi.pop() //RETIRA A ÚLTIMA POSIÇÃO DO VETOR
+	vp.push(r) //INSERIR NA ÚLTMA POSIÇÃO DO VETOR
+	document.write(vp,'<br>',vi, '<br>')
+	e=+prompt('Informe um valor a ser procurado no vetor')
+	x=vr.indexOf(e)
+	if (x==-1) {
+		
+	}
+</script>

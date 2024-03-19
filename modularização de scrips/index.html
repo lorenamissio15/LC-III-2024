@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <script type="text/javascript" src="js/primeiroCod.js"></script>
+    <script type="text/javascript" src="js/calculos.js"></script>
+</head>
+<body>
+    <h1>Modularização de Scripts</h1>
+    <input type="number" id="num">
+    <input type="button" value="compare" onclick="compare(document.getElementById('num').value);">
+    <br />
+    <input type="number" id="num1">
+    <br />
+    <input type="number" id="num2">
+    <br />
+    <input type="button" value="compare"
+     onclick="document.getElementById('calculo').innerHTML = 
+     calculo(document.getElementById('num1').value,document.getElementById('num2').value)">
+    <p id="calculo"></p>
+</body>
+<script type="text/javascript">
+    document.getElementById('calculo').innerHTML = 'Olá';
+</script>
+
+</html>
