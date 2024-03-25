@@ -1,4 +1,4 @@
-function calculo(x, y) {
+ function calculo(x, y) {
     if (x === '' || y === '') {
         alert('Informe números nos dois campos');
         return false;
